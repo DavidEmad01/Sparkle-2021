@@ -732,6 +732,7 @@ header  nav ul li a:hover {
 
     .about-us .box .image {
         order: -1;
+        margin-bottom: 20px;
     }
 
     .about-us .box .image img {
@@ -744,6 +745,7 @@ header  nav ul li a:hover {
 footer {
     background-color: #111;
     padding: 70px 0;
+    position: relative;
 }
 
 footer .container {
@@ -866,10 +868,13 @@ footer .contact .social a:hover span{
 }
 
 .me {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
     color: white;
     text-align: center;
     background-color: rgba(255, 229, 0, 0.5);
-    padding: 5px 0;
+    padding: 20px 0;
 }
 
 .me a {
