@@ -637,7 +637,7 @@ header  nav ul li a:hover {
 
 .about-us .box {
     position: relative;
-    top: 40px;
+    top: 10px;
     max-width: 100%;
 }
 
@@ -675,7 +675,7 @@ header  nav ul li a:hover {
 
 .about-us .box .image {
     position: relative;
-    top: 45px;
+    top: 80px;
     overflow: hidden;
 }
 
@@ -790,6 +790,7 @@ footer ul li {
 
 footer  ul li a {
     color: white;
+    transition: 0.3s;
 }
 
 footer  ul li a:hover {
@@ -825,6 +826,7 @@ footer .contact button a {
     border-radius: 50px;
     font-weight: 600;
     border: 1px solid;
+    transition: background-color 0.3s;
 }
 
 footer .contact button a:hover {
@@ -854,6 +856,7 @@ footer .contact .social span {
     height: 30px;
     background-color: white;
     border-radius: 50%;
+    transition: background-color 0.3s;
 }
 
 footer .contact .social a:hover span{
